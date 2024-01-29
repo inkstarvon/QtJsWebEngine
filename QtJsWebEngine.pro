@@ -29,3 +29,5 @@ RESOURCES += \
 
 DISTFILES += \
     QtQuickWebEngine.qml
+
+QMAKE_LFLAGS += -fuse-ld=gold
